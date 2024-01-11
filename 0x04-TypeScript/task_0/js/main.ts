@@ -31,4 +31,4 @@ studentList.forEach((student) => {
     nameCell.innerText = student.firstName;
     locationCell.innerText = student.lastName;
 })
-document.getElementsByTagName('body')[0].appendChild(table);
+document.body.appendChild(table);
